@@ -58,12 +58,12 @@ This project demonstrates how different sorting algorithms work through real-tim
 ---
 
 ## 📂 Project Structure  
-Sorting-Visualizer/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md 
+Sorting-Visualizer/  
+│  
+├── index.html  
+├── style.css  
+├── script.js  
+└── README.md   
 ---
 
 ## 🎯 Learning Objectives
