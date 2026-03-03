@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <h1>✨ Sorting Visualizer</h1>
+
+    <div class="controls">
+    <button onclick="init()">Generate Array</button>
+    <button onclick="play()">Start Sorting</button>
+
+    <select id="algoSelect">
+        <option value="bubble">Bubble Sort</option>
+        <option value="insertion">Insertion Sort</option>
+        <option value="selection">Selection Sort</option>
+        <option value="quick">Quick Sort</option>
+    </select>
+
+    <label>
+        Size:
+        <input type="range" min="5" max="100" value="30" id="sizeSlider">
+    </label>
+
+    <label>
+        Speed:
+        <input type="range" min="10" max="200" value="50" id="speedSlider">
+    </label>
+</div>
+
+<div class="complexity">
+    <h3>Algorithm Complexity</h3>
+    <p id="complexityInfo">Select an algorithm</p>
+</div>
+
+    <div id="container"></div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2026 Sorting Visualizer | All rights reserved.</p>
+            <div class="socials">
+                <p>Connect with me:</p>
+                <a href="https://www.linkedin.com/in/pradeep-singh4/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/pradeep-r04"><i class="fab fa-github"></i></a>
+        <a href="https://x.com/altpradeep"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/whypradeeep/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
